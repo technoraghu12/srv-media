@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
@@ -16,8 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <!-- CSS here -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Bootstrap removed to follow custom CSS guideline (no frameworks). Styles implemented in `styles.css`. -->
 
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
@@ -31,22 +30,24 @@
 
 <body>
 
-    <header class="sticky">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="sticky" role="banner">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 top-flex">
                     <div class="top-left">
-                        <a href="#"><img src="assets/images/logo.webp"></a>
+                        <a href="#"><img src="assets/images/logo.webp" alt="Premier Schools Exhibition logo"></a>
                     </div>
                     <div class="top-right">
-                        <a href="#frm"><span><img src="assets/images/whire-arrow.webp"></span> Register Now</a>
+                        <a href="#frm"><span><img src="assets/images/whire-arrow.webp" alt="" aria-hidden="true"></span> Register Now</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="banner">
+    <main id="main-content" class="banner" role="main">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 banner-flx">
@@ -71,32 +72,35 @@
                         </div>
                     </div>
 
-                    <div class="banner-slide">
+                    <div class="banner-slide" role="region" aria-label="Hero images" tabindex="0">
+                        <div class="hero-controls">
+                            <button class="hero-toggle" aria-pressed="false" aria-label="Pause hero autoplay">Pause</button>
+                        </div>
                         <div class="banner-slide-1">
-                            <div class="bn-sl"><img src="assets/images/bn-sl-1.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-2.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-3.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-4.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-1.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-2.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-3.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-4.webp"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-1.webp" alt="Banner slide 1"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-2.webp" alt="Banner slide 2"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-3.webp" alt="Banner slide 3"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-4.webp" alt="Banner slide 4"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-1.webp" alt="Banner slide 1"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-2.webp" alt="Banner slide 2"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-3.webp" alt="Banner slide 3"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-4.webp" alt="Banner slide 4"></div>
                         </div>
                         <div class="banner-slide-2">
-                            <div class="bn-sl"><img src="assets/images/bn-sl-5.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-6.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-7.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-8.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-5.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-6.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-7.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-8.webp"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-5.webp" alt="Banner slide 5"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-6.webp" alt="Banner slide 6"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-7.webp" alt="Banner slide 7"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-8.webp" alt="Banner slide 8"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-5.webp" alt="Banner slide 5"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-6.webp" alt="Banner slide 6"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-7.webp" alt="Banner slide 7"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-8.webp" alt="Banner slide 8"></div>
                         </div>
                         <div class="banner-slide-1">
-                            <div class="bn-sl"><img src="assets/images/bn-sl-9.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-10.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-11.webp"></div>
-                            <div class="bn-sl"><img src="assets/images/bn-sl-12.webp"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-9.webp" alt="Banner slide 9"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-10.webp" alt="Banner slide 10"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-11.webp" alt="Banner slide 11"></div>
+                            <div class="bn-sl"><img src="assets/images/bn-sl-12.webp" alt="Banner slide 12"></div>
                             <div class="bn-sl"><img src="assets/images/bn-sl-9.webp"></div>
                             <div class="bn-sl"><img src="assets/images/bn-sl-10.webp"></div>
                             <div class="bn-sl"><img src="assets/images/bn-sl-11.webp"></div>
@@ -126,10 +130,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 award-flx">
-                    <div class="awardPic"><img src="assets/images/award-1.webp"></div>
-                    <div class="awardPic"><img src="assets/images/award-2.webp"></div>
-                    <div class="awardPic"><img src="assets/images/award-3.webp"></div>
-                    <div class="awardPic"><img src="assets/images/award-4.webp"></div>
+                    <div class="awardPic"><img src="assets/images/award-1.webp" alt="Award 1"></div>
+                    <div class="awardPic"><img src="assets/images/award-2.webp" alt="Award 2"></div>
+                    <div class="awardPic"><img src="assets/images/award-3.webp" alt="Award 3"></div>
+                    <div class="awardPic"><img src="assets/images/award-4.webp" alt="Award 4"></div>
                 </div>
             </div>
         </div>
@@ -144,96 +148,96 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="cat-1" class="owl-carousel owl-theme">
+                    <div id="cat-1" class="owl-carousel owl-theme carousel" role="region" aria-label="Participating schools carousel 1" tabindex="0">
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/1.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/1.webp" alt="Participating school 1"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/2new.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/2new.webp" alt="Participating school 2"></div>
                         </div>
                         <!-- <div class="item">
-                      <div class="schoolLogo"><img src="assets/images/2.webp"></div>
+                      <div class="schoolLogo"><img src="assets/images/2.webp" alt="Participating school 2 variant"></div>
                   </div> -->
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/3.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/3.webp" alt="Participating school 3"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/4new.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/4new.webp" alt="Participating school 4"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/4.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/4.webp" alt="Participating school 4 variant"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/5.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/5.webp" alt="Participating school 5"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/6.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/6.webp" alt="Participating school 6"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/7.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/7.webp" alt="Participating school 7"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/8.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/8.webp" alt="Participating school 8"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/9.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/9.webp" alt="Participating school 9"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/10.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/10.webp" alt="Participating school 10"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/11.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/11.webp" alt="Participating school 11"></div>
                         </div>
 
                     </div>
-                    <div id="cat-2" class="owl-carousel owl-theme">
+                    <div id="cat-2" class="owl-carousel owl-theme carousel" role="region" aria-label="Participating schools carousel 2" tabindex="0">
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/12.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/12.webp" alt="Participating school 12"></div>
                         </div>
 
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/14new.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/14new.webp" alt="Participating school 14"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/13.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/13.webp" alt="Participating school 13"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/14.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/14.webp" alt="Participating school 14 variant"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/15.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/15.webp" alt="Participating school 15"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/18new.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/18new.webp" alt="Participating school 18"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/16.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/16.webp" alt="Participating school 16"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/17.webp"></div>
-                        </div>
-
-                        <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/18.webp"></div>
-                        </div>
-                        <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/19.webp"></div>
-                        </div>
-                        <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/20.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/17.webp" alt="Participating school 17"></div>
                         </div>
 
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/21.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/18.webp" alt="Participating school 18 variant"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/22.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/19.webp" alt="Participating school 19"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/23.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/20.webp" alt="Participating school 20"></div>
+                        </div>
+
+                        <div class="item">
+                            <div class="schoolLogo"><img src="assets/images/21.webp" alt="Participating school 21"></div>
                         </div>
                         <div class="item">
-                            <div class="schoolLogo"><img src="assets/images/27new.webp"></div>
+                            <div class="schoolLogo"><img src="assets/images/22.webp" alt="Participating school 22"></div>
+                        </div>
+                        <div class="item">
+                            <div class="schoolLogo"><img src="assets/images/23.webp" alt="Participating school 23"></div>
+                        </div>
+                        <div class="item">
+                            <div class="schoolLogo"><img src="assets/images/27new.webp" alt="Participating school 27"></div>
                         </div>
 
                     </div>
@@ -267,11 +271,12 @@
             </div>
             <div class="row mt-4 for-mob">
                 <div class="col-md-12">
-                    <div id="cat-5" class="owl-carousel owl-theme">
+                    <div id="cat-5" class="owl-carousel owl-theme carousel" role="region" aria-label="Choose the School carousel" tabindex="0">
                         <div class="item">
                             <div class="why-full">
                                 <div class="why-pic">
-                                    <img src="assets/images/choose-1.webp">
+                                    <img src="assets/images/choose-1.webp" alt="IB programme">
+
                                 </div>
                                 <div class="why-text">
                                     <h5>IB</h5>
@@ -283,7 +288,8 @@
                         <div class="item">
                             <div class="why-full">
                                 <div class="why-pic">
-                                    <img src="assets/images/choose-2.webp">
+                                    <img src="assets/images/choose-2.webp" alt="Cambridge programme">
+
                                 </div>
                                 <div class="why-text">
                                     <h5>Cambridge</h5>
@@ -295,7 +301,8 @@
                         <div class="item">
                             <div class="why-full">
                                 <div class="why-pic">
-                                    <img src="assets/images/choose-3.webp">
+                                    <img src="assets/images/choose-3.webp" alt="CBSE programme">
+
                                 </div>
                                 <div class="why-text">
                                     <h5>CBSE</h5>
@@ -307,7 +314,8 @@
                         <div class="item">
                             <div class="why-full">
                                 <div class="why-pic">
-                                    <img src="assets/images/choose-4.webp">
+                                    <img src="assets/images/choose-4.webp" alt="ICSE programme">
+
                                 </div>
                                 <div class="why-text">
                                     <h5>ICSE </h5>
@@ -322,7 +330,7 @@
                 <div class="col-md-12 why-flx">
                     <div class="why-full">
                         <div class="why-pic">
-                            <img src="assets/images/choose-1.webp">
+                            <img src="assets/images/choose-1.webp" alt="IB programme">
                         </div>
                         <div class="why-text">
                             <h5>IB</h5>
@@ -332,7 +340,7 @@
                     </div>
                     <div class="why-full">
                         <div class="why-pic">
-                            <img src="assets/images/choose-2.webp">
+                            <img src="assets/images/choose-2.webp" alt="Cambridge programme">
                         </div>
                         <div class="why-text">
                             <h5>Cambridge</h5>
@@ -341,7 +349,7 @@
                     </div>
                     <div class="why-full">
                         <div class="why-pic">
-                            <img src="assets/images/choose-3.webp">
+                            <img src="assets/images/choose-3.webp" alt="CBSE programme">
                         </div>
                         <div class="why-text">
                             <h5>CBSE</h5>
@@ -351,7 +359,7 @@
                     </div>
                     <div class="why-full">
                         <div class="why-pic">
-                            <img src="assets/images/choose-4.webp">
+                            <img src="assets/images/choose-4.webp" alt="ICSE programme">
                         </div>
                         <div class="why-text">
                             <h5>ICSE </h5>
@@ -371,10 +379,10 @@
                         <h3>Register Now <span>&</span> Pre<span>-</span>schedule Your Appointments</h3>
                         <h5>To Avoid Rush</h5>
                         <div class="know-more fr-dec">
-                            <a href="#frm"><span><img src="assets/images/whire-arrow.webp"></span> PRE-SCHEDULE NOW</a>
+                            <a href="#frm"><span><img src="assets/images/whire-arrow.webp" alt="" aria-hidden="true"></span> PRE-SCHEDULE NOW</a>
                         </div>
                         <div class="know-more fr-mb">
-                            <a href="#frm1"><span><img src="assets/images/whire-arrow.webp"></span> PRE-SCHEDULE NOW</a>
+                            <a href="#frm1"><span><img src="assets/images/whire-arrow.webp" alt="" aria-hidden="true"></span> PRE-SCHEDULE NOW</a>
                         </div>
                     </div>
                 </div>
@@ -388,21 +396,21 @@
                 <h2>Other Attractions for Kids <span>&</span> Parents</h2>
             </div>
             <div class="col-md-12">
-                <div class="btns">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-bs-toggle="tab" href="#home">Premier Kidz Awards</a>
+                <nav class="tabs btns" aria-label="Other attractions tabs">
+                    <ul class="tablist" role="tablist">
+                        <li role="presentation">
+                            <button id="tab-home" class="tab-link" role="tab" aria-controls="home" aria-selected="true">Premier Kidz Awards</button>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#menu1">The Parent Exchange</a>
+                        <li role="presentation">
+                            <button id="tab-menu1" class="tab-link" role="tab" aria-controls="menu1" aria-selected="false">The Parent Exchange</button>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
 
         <div class="tab-content">
-            <div class="tab-pane active" id="home">
+            <section id="home" class="tab-panel active" role="tabpanel" aria-labelledby="tab-home" tabindex="-1">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 attraction-flx">
                         <div class="attractionInner">
@@ -417,16 +425,16 @@
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <div class="attractionpic">
-                            <img src="assets/images/attraction-pic.webp">
+                            <img src="assets/images/attraction-pic.webp" alt="Attraction image">
                         </div>
                         <div class="attractionpic-mobile">
-                            <img src="assets/images/attraction-pic-mobile.webp">
+                            <img src="assets/images/attraction-pic-mobile.webp" alt="Attraction image mobile">
                         </div>
                     </div>
 
                 </div>
-            </div>
-            <div class="tab-pane fade" id="menu1">
+            </section>
+            <section id="menu1" class="tab-panel" role="tabpanel" aria-labelledby="tab-menu1" hidden tabindex="-1">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 attraction-flx">
                         <div class="attractionInner">
@@ -440,13 +448,13 @@
                             <img src="assets/images/parent-exchange.webp">
                         </div>
                         <div class="attractionpic-mobile">
-                            <img src="assets/images/parent-exchange.webp">Visit The Exhibition & Secure Your Child's
+                            <img src="assets/images/parent-exchange.webp" alt="Parent Exchange event image">Visit The Exhibition & Secure Your Child's
                             Future
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </section>
         </div>
 
     </div>
@@ -460,31 +468,31 @@
             </div>
             <div class="row mt-4 for-dec">
                 <div class="col-lg-12 col-md-12">
-                    <div id="cat-3" class="owl-carousel owl-theme">
+                    <div id="cat-3" class="owl-carousel owl-theme carousel" role="region" aria-label="Exhibition highlights carousel" tabindex="0">
                         <div class="item">
                             <div class="exhibitionInner">
-                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-1.webp"></div>
+                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-1.webp" alt="Interact directly icon"></div>
                                 <h4>Interact Directly with School Heads</h4>
                                 <p>Get answers straight from experts</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="exhibitionInner">
-                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-2.webp"></div>
+                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-2.webp" alt="Compare curriculum icon"></div>
                                 <h4>Compare Curriculum <span>&</span> Pedagogy</h4>
                                 <p>Understand the differences between IB, Cambridge, CBSE, ICSE & more.</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="exhibitionInner">
-                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-3.webp"></div>
+                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-3.webp" alt="Fee structures icon"></div>
                                 <h4>Get Exclusive Fee Structures <span>&</span> Offers</h4>
                                 <p>Access transparent information from the right authorities and avail offers.</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="exhibitionInner">
-                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-4.webp"></div>
+                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-4.webp" alt="School offerings icon"></div>
                                 <h4>Explore School Offerings</h4>
                                 <p>Preview infrastructure, hostels, extracurriculars, teaching methodology, & culture.
                                 </p>
@@ -502,15 +510,15 @@
             </div>
             <div class="row mt-4 for-mob">
                 <div class="col-lg-12 col-md-12">
-                    <div id="cat-6" class="owl-carousel owl-theme">
+                    <div id="cat-6" class="owl-carousel owl-theme carousel" role="region" aria-label="Exhibition highlights mobile carousel" tabindex="0">
                         <div class="item">
                             <div class="exhibitionInner">
-                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-1.webp"></div>
+                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-1.webp" alt="Interact directly icon"></div>
                                 <h4>Interact Directly with School Heads</h4>
                                 <p>Get answers straight from experts</p>
                             </div>
                             <div class="exhibitionInner">
-                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-2.webp"></div>
+                                <div class="exhibitionInnerIcon"><img src="assets/images/icon-2.webp" alt="Compare curriculum icon"></div>
                                 <h4>Compare Curriculum <span>&</span> Pedagogy</h4>
                                 <p>Understand the differences between IB, Cambridge, CBSE, ICSE & more.</p>
                             </div>
@@ -541,7 +549,7 @@
         </div>
     </div>
     <div class="full">
-        <img src="assets/images/round.png">
+        <img src="assets/images/round.png" alt="" aria-hidden="true">
     </div>
 
 
@@ -561,9 +569,9 @@
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="assets/images/gallery-1.webp" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/images/gallery-2.webp" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/images/gallery-3.webp" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/gallery-1.webp" alt="Gallery image 1"></div>
+                            <div class="swiper-slide"><img src="assets/images/gallery-2.webp" alt="Gallery image 2"></div>
+                            <div class="swiper-slide"><img src="assets/images/gallery-3.webp" alt="Gallery image 3"></div>
                             <div class="swiper-slide"><img src="assets/images/gallery-4.webp" alt=""></div>
                             <div class="swiper-slide"><img src="assets/images/gallery-6.webp" alt=""></div>
                             <div class="swiper-slide"><img src="assets/images/gallery-7.webp" alt=""></div>
@@ -582,7 +590,7 @@
             <div class="row">
                 <div class="col-md-12 footer-flx">
                     <div class="ft-logo">
-                        <a href="index.html"><img src="assets/images/logo.webp"></a>
+                        <a href="index.html"><img src="assets/images/logo.webp" alt="Premier Schools Exhibition logo"></a>
                     </div>
                     <div class="ft-address">
                         <div class="ft-icon"><img src="assets/images/pin.webp"></div>
@@ -599,7 +607,7 @@
                         </div>
                     </div>
                     <div class="ft-address">
-                        <div class="ft-icon"><img src="assets/images/call.webp"></div>
+                        <div class="ft-icon"><img src="assets/images/call.webp" alt="Phone icon" aria-hidden="true"></div>
                         <div class="ft-dec">
                             <h4>Call us on</h4>
                             <p><a href="tel:8910074178">8910074178</a></p>
@@ -609,11 +617,11 @@
                     <div class="ft-social">
                         <h4>Follow us on</h4>
                         <div class="socialBox">
-                            <div class="ft-sc"><a href="#" target="_blank"><img src="assets/images/insta.webp"></a>
+                            <div class="ft-sc"><a href="#" target="_blank"><img src="assets/images/insta.webp" alt="Instagram" aria-hidden="true"></a>
                             </div>
-                            <div class="ft-sc"><a href="#" target="_blank"><img src="assets/images/facebook.webp"></a>
+                            <div class="ft-sc"><a href="#" target="_blank"><img src="assets/images/facebook.webp" alt="Facebook" aria-hidden="true"></a>
                             </div>
-                            <div class="ft-sc"><a href="#" target="_blank"><img src="assets/images/youtube.webp"></a>
+                            <div class="ft-sc"><a href="#" target="_blank"><img src="assets/images/youtube.webp" alt="YouTube" aria-hidden="true"></a>
                             </div>
                         </div>
                     </div>
@@ -631,7 +639,7 @@
     </div>
     <!-- jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS removed to avoid framework dependency -->
     <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
